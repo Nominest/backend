@@ -14,5 +14,19 @@ Content-Type: application/json
 
 get http://localhost:5000/employees/?limit=10  http/1.1
 
+###
 
+//add user in ecommerce
+post http://localhost:5000/addUser  http/1.1 http/1.1
+Content-Type: application/json
+
+  {
+    "user_name": "Test",
+    "role": "admin",
+    "password": "nnnn",
+    "email": "test3@gmail.com",
+    "contact": "8162",
+    "address_1": "SBD",
+    "register_date": 2023-01-01,
+  }
 
